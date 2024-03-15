@@ -1,0 +1,35 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio files
+.vscode/
+.vs/
+
+# Ignore NuGet packages
+*.nuget.props
+*.paket.props
+*.paket.targets
+*.lock.json
+packages/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.log
+*.config
+
+# Ignore publish output
+publish/

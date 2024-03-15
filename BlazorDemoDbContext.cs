@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
+using BlazorAppDemo.Models;
 
 namespace BlazorAppDemo
 {
@@ -12,12 +12,7 @@ namespace BlazorAppDemo
 
         public DbSet<Product> Products { get; set; }
 
-        public class Product
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-            public decimal Price { get; set; }
-        }
+   
 
         // Define DbSet properties for your entity classes here
         // For example:

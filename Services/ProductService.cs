@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using static BlazorAppDemo.BlazorDemoDbContext;
+using BlazorAppDemo.Models;
 
 namespace BlazorAppDemo.Services
 
